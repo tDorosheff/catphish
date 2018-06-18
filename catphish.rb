@@ -102,6 +102,22 @@ module Catphish
     "z" => ["\u017E"]
   }   
 
+  # These character mappings use unicode characters which more closely resemble their Basic Latin counterparts. Uncomment
+  # to create more ambiguous domain names, and comment out the CHARS_MAP section above.
+  # CHARS_MAP = {
+  #   "a" => ["\u03B1", "\u0061", "\u0430", "\u0251"],
+  #   "e" => ["\u0435", "\u212E", "\u0065", "\u0275"],
+  #   "c" => ["\u0063", "\u03F2", "\u0441"],
+  #   "d" => ["\u0064", "\u010F"],
+  #   "i" => ["\u1F30", "\u1F31", "\u1F76", "\u1F77", "\u1FD0", "\u1FD1", "\u2139", "\u0456", "\u03AF", "\u04CF"],
+  #   "o" => ["\u043E", "\u039F", "\u03BF", "\u05E1"],
+  #   "u" => ["\u05E1", "\u0075"],
+  #   "r" => ["\u0072", "\u0213", "\u027C"],
+  #   "t" => ["\u0074", "\u0288", "\u03EF", "\u2138"],
+  #   "y" => ["\u0443", "\u0079", "\u00FD"],
+  #   "z" => ["\u007A", "\u017C"]
+  # }
+  
   # Current langs: Vietnamese, Croation and Czech
   CYRILLIC_CHARS_MAP = {
     "a" => "\u0430", "b" => "\u0432", "c" => "\u0441", "e" => "\u0435",
